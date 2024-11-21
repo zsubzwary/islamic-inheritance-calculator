@@ -34,6 +34,7 @@ export default defineConfig({
       }
     })
   ],
+  base: '/islamic-inheritance-calculator/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
