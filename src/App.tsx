@@ -60,6 +60,8 @@ function AppContent() {
 
           <footer className="mt-12 text-center text-sm text-gray-600 dark:text-gray-400">
             <p className={language === 'ur' ? 'font-urdu' : ''}>{t('footer')}</p>
+            <br />
+            <p className={language === 'ur' ? 'font-urdu' : ''}>{t('zaki')}</p>
           </footer>
         </div>
       </div>
